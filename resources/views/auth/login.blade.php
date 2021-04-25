@@ -27,13 +27,13 @@
                     @enderror
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <h2 class="mb-5 text-center">Sign asdadadasd In</h2>
+                            <h2 class="mb-5 text-center">Sign In</h2>
                             <div class="row">
                                 <div class="col-12">
                                     <a href="{{url('auth/google')}}" class="btn btn-danger btn-block"><i class="fa fa-google">&nbsp;</i>Login
                                         With Google</a>
                                 </div>
-                            
+
                             </div>
 
                             <div class="text-center mb-3 mt-5">
