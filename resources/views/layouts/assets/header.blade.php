@@ -4,7 +4,7 @@
             <div class="iq-navbar-custom d-flex align-items-center justify-content-between">
                 <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
                     <i class="ri-menu-line wrapper-menu text-primary"></i>
-                    <a href="index-2.html" class="header-logo">
+                    <a href="{{url('/')}}" class="header-logo">
                         <img src="{{URL::to('images/logo/logo.png')}}" class="img-fluid rounded-normal" alt="logo">
                     </a>
                 </div>
