@@ -25,7 +25,7 @@ class PageController extends Controller
         $data ['news'] = News::join('categories' , 'news.cat_id' , '=' , 'categories.id')
             ->join('users' , 'news.created_by' , '=' , 'users.id')
             ->select(
-                'news.title' , 'news.desc', 'news.thumb' , 'news_slug', 'news.created_by as NewsCreated',
+                'news.title' , 'news.desc', 'news.thumb' , 'news_slug', 'news.created_at as NewsCreated',
                 'news.id as NewsId', 'users.name'
             )
             ->get();
