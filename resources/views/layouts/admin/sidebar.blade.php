@@ -37,8 +37,8 @@
                     </ul>
                 </li>
 
-                <li class="{{ request()->is('dashboard/sidebar') ? 'active' : ''}}">
-                    <a href="{{url('/dashboard/sidebar')}}"  aria-expanded="false">
+                <li class="{{ request()->is('dashboard/slider') ? 'active' : ''}}">
+                    <a href="{{url('/dashboard/slider')}}"  aria-expanded="false">
                         Manage Slider
                     </a>
                 </li>

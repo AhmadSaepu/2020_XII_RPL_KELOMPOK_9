@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\DashboardConroller;
 use App\Http\Controllers\PromoController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\Auth\GoogleController;
+use App\Http\Controllers\SliderController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -47,7 +48,7 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth:web'], function () 
         Route::get('news/edit/{id}', [DashboardConroller::class, 'newsEdit']);
         Route::post('news/update/{id}', [DashboardConroller::class, 'newsUpdate']);
 
-
+        Route::get('/slider', [SliderController::class, 'listSlider']);
 
         Route::get('/news/view', [DashboardConroller::class, 'viewNews']);
 

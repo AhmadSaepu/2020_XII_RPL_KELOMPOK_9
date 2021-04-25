@@ -205,20 +205,20 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="629" y="252" key="#phpunit.xml/0.0.1920.1200@0.0.1920.1200" timestamp="1619276536840" />
-    <state x="782" y="503" key="NewPhpFileDialog" timestamp="1619293519049">
+    <state x="782" y="503" key="NewPhpFileDialog" timestamp="1619367007232">
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
     <state x="782" y="524" key="NewPhpFileDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1619255682087" />
-    <state x="782" y="503" key="NewPhpFileDialog/0.23.1920.1100@0.23.1920.1100" timestamp="1619293519049" />
+    <state x="782" y="503" key="NewPhpFileDialog/0.23.1920.1100@0.23.1920.1100" timestamp="1619367007232" />
     <state x="660" y="325" width="600" height="524" key="find.popup" timestamp="1619040480009">
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
     <state x="660" y="325" width="600" height="524" key="find.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619040480009" />
-    <state x="625" y="269" width="670" height="676" key="search.everywhere.popup" timestamp="1619366705302">
+    <state x="625" y="269" width="670" height="676" key="search.everywhere.popup" timestamp="1619367458051">
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
     <state x="625" y="268" width="670" height="738" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1619283060986" />
-    <state x="625" y="269" width="670" height="676" key="search.everywhere.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619366705302" />
+    <state x="625" y="269" width="670" height="676" key="search.everywhere.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619367458051" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
