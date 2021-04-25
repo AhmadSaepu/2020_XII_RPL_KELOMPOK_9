@@ -1,7 +1,5 @@
 @extends('master.master')
-@section('slider')
-    @include('layouts.assets.banner')
-@endsection
+
 @section('content')
 
    <div class="content-page-1">
