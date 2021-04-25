@@ -29,14 +29,11 @@
                         <div class="col-lg-6">
                             <h2 class="mb-5 text-center">Sign In</h2>
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12">
                                     <a href="{{url('auth/google')}}" class="btn btn-danger btn-block"><i class="fa fa-google">&nbsp;</i>Login
                                         With Google</a>
                                 </div>
-                                <div class="col-6">
-                                    <a href="" class="btn btn-primary btn-block"><i class="fa fa-facebook">&nbsp;</i>Login
-                                        With Facebook</a>
-                                </div>
+                            
                             </div>
 
                             <div class="text-center mb-3 mt-5">
