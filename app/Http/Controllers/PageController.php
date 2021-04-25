@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function Index(){
-        $data ['slider'] = Slider::whereSliderStatus(0)->orderBy('created_at' , 'DESC')->get();
+        $data ['slider'] = Slider::all();
         $data ['news'] = News::limit(8)
             ->join('users' , 'news.created_by' , '=' , 'users.id')
             ->select(
