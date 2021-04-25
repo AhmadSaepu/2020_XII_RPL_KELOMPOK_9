@@ -37,6 +37,13 @@
                     </ul>
                 </li>
 
+                <li class="{{ request()->is('dashboard/sidebar') ? 'active' : ''}}">
+                    <a href="{{url('/dashboard/sidebar')}}"  aria-expanded="false">
+                        Manage Slider
+                    </a>
+                </li>
+
+
                 <li>
                     <a class="dropdown-item" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
