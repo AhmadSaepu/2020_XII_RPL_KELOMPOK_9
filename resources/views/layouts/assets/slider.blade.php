@@ -1,21 +1,15 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"style="margin-top:0px;">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 
-    </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="{{URL::to('images/slider/slider.jpeg')}}" class="d-block w-100" alt="#">
-        </div>
+        @foreach($slider as $data)
         <div class="carousel-item">
-            <img src="{{URL::to('images/slider/MM.jpg')}}" class="d-block w-100" alt="#">
+            <img src="{{URL::to('images/slider', $data->image_name)}}" class="d-block w-100" alt="#">
         </div>
-        <div class="carousel-item">
-            <img src="{{URL::to('images/slider/RPL.jpg')}}" class="d-block w-100" alt="#">
-        </div>
-    
+        @endforeach
+            <div class="carousel-item">
+                <img src="{{URL::to('images/slider', $data->image_name)}}" class="d-block w-100" alt="#">
+            </div>
+
 
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

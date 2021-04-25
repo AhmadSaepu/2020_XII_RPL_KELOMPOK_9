@@ -5,11 +5,13 @@ namespace App\Http\Controllers;
 use App\Models\Comment;
 use App\Models\Information;
 use App\Models\News;
+use App\Models\Slider;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
     public function Index(){
+        $data ['slider'] = Slider::whereSliderStatus(0)->orderBy('created_at' , 'DESC')->get();
         $data ['news'] = News::limit(8)
             ->join('users' , 'news.created_by' , '=' , 'users.id')
             ->select(

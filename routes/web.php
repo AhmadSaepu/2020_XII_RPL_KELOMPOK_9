@@ -49,6 +49,11 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth:web'], function () 
         Route::post('news/update/{id}', [DashboardConroller::class, 'newsUpdate']);
 
         Route::get('/slider', [SliderController::class, 'listSlider']);
+        Route::post('/slider/change/{id}', [SliderController::class, 'ChangeSlider']);
+        Route::get('/slider/active/{id}', [SliderController::class, 'activeSlider']);
+        Route::get('/slider/non-active/{id}', [SliderController::class, 'nonActiveSlider']);
+
+
 
         Route::get('/news/view', [DashboardConroller::class, 'viewNews']);
 

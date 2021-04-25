@@ -13952,9 +13952,8 @@ a.bg-skyblue-light:focus, a.bg-skyblue-light:hover, button.bg-skyblue-light:focu
 }
 
 .avatar-100 {
-    height: 100px;
-    width: 100px;
-    line-height: 100px;
+    height: auto;
+    max-width: 300px;
     min-width: 100px
 }
 
